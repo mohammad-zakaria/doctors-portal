@@ -3,7 +3,7 @@ import React from 'react';
 const TestimonialDetails = (props) => {
     const {name, comment, img, location} = props.testimonial;
     return (
-        <div className="card col-md-4 mx-auto shadow-sm">
+        <div className="card col-md-4 m-auto shadow-sm">
             <div className="card-body">
                 <p className="card-text text-center">{comment}</p>
             </div>

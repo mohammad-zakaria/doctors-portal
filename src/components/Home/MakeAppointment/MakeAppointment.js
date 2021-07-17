@@ -1,8 +1,8 @@
 import React from 'react';
 import doctor from '../../../images/doctor.png';
-import './Appointment.css'
+import './MakeAppointment.css'
 
-const Appointment = () => {
+const MakeAppointment = () => {
     return (
         <section className="appointment mt-5">
             <div className="container">
@@ -22,4 +22,4 @@ const Appointment = () => {
     );
 };
 
-export default Appointment;
+export default MakeAppointment;
